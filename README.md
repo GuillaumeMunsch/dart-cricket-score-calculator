@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Dart Cricket Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Dart Cricket Calculator! This calculator is designed to help you play dart cricket with more than 2 players. It allows you to add players, calculate scores, and even cancel moves if needed.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Players**: Easily add players to the game to start tracking their scores.
+- **Calculate Scores**: Keep track of each player's score as they progress through the game.
+- **Cancel Possibility**: Made a mistake? No problem! You can cancel moves and correct any errors.
+- **Radix UI Integration**: The calculator uses Radix UI components for a sleek and intuitive user interface.
 
-## Expanding the ESLint configuration
+## How to Use
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Run the application using `npm start`.
+4. Start adding players and keep track of their scores as you play dart cricket!
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- React
+- Radix UI
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+#### This README.md has been generated with ChatGPT
